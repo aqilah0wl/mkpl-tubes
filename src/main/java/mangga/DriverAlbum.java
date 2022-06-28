@@ -14,7 +14,6 @@ public class DriverAlbum
         song1.setTitle("Melukis Senja");
         song1.setArtist("Budi Doremi");
         song1.setDuration(240);
-        song1.play();
         
         song2.setTitle("Photography");
         song2.setArtist("Ed Sheeran");
