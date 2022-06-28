@@ -1,6 +1,6 @@
 package mangga;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
@@ -13,8 +13,13 @@ public class AppTest
      * Rigorous Test :-)
      */
     @Test
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( true );
+    public void tesPlay(){
+        Song testSong = new Song();
+
+        int dataInput = 130;
+        String expectedResult =  "Intermediate";
+        testSong.setDuration(dataInput);
+        assertEquals(testSong.play(), expectedResult);
+
     }
 }
