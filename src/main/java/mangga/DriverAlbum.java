@@ -8,7 +8,7 @@ public class DriverAlbum
 {
     public static void main( String[] args )
     {
-        Song song1 = new Song();
+        Song song1 = new Songs();
         Song song2 = new Song();
         
         song1.setTitle("Melukis Senja");
