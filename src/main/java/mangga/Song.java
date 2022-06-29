@@ -38,7 +38,7 @@ public class Song {
         if (duration > 0 && duration < 140){
             return "Short";
         } else if (duration >= 140 && duration <= 240){
-            return "Intermediate";  
+            return "Intermediate";
         } else {
             return "Long";
         }
