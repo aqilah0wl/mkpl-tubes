@@ -35,9 +35,9 @@ public class Song {
         }
     };
     public String play(){
-        if (duration > 0 && duration < 120){
+        if (duration > 0 && duration < 140){
             return "Short";
-        } else if (duration >= 120 && duration <= 240){
+        } else if (duration >= 140 && duration <= 240){
             return "Intermediate";  
         } else {
             return "Long";
